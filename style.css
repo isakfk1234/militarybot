@@ -1,0 +1,12 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #f0f0f1;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
