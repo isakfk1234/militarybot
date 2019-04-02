@@ -1,9 +1,10 @@
 .navbar {
     background: lightsteelblue;
     border: 3px solid black;
-    padding-left: 212px;
-    margin-left: 523px;
-    margin-right: 608px;
+    padding-left: 169px;
+    padding-right: 56px;
+    margin-left: 264px;
+    margin-right: 400px;
 }
 
 .navbar a {
