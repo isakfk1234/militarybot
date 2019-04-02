@@ -1,0 +1,23 @@
+.navbar {
+    background: lightsteelblue;
+    border: 3px solid black;
+    padding-left: 75px;
+    margin-left: 600px;
+    margin-right: 608px;
+   
+}
+
+.navbar a {
+    color: #0c0c0c;
+    text-align: center;
+    padding: 0px 14px 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background: cadetblue;
+    border: 1px dashed;
+  }
+
+
+.active {
+    background: yellow;
+}
