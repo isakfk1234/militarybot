@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+</head>
+<body>
+
+<div class="navbar">
+	<a href="/militarybotwebsite/Main.html">home</a>
+	<a href="/militarybotwebsite/about/about.html">About</a>
+	<a href="/militarybotwebsite/news/news.html">news</a>
+	<a href="contact.html">contact me</a>
+	<a href="/militarybotwebsite/discord/discord.html">Discord</a>
+	<a href="login.html" class="active">Login</a>
+</div>
+
+<div class="container">
+<div class="header">
+ <h1>Login to Admin</h1>
+ </div>
+
+ <form name="login" onsubmit="return validateForm() ;" method="post">
+
+ <ul>
+ <li>Username: <input class="username" type="text" name="username">
+ </li>
+
+ <li>Password: <input class="password" type="password" name="password">
+ </li>
+ </ul>
+
+<input type="button" class="submit" value="Log In" name="submit" onclick="validate()">
+</form>
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>
