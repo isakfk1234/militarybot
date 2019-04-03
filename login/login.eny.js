@@ -17,7 +17,7 @@ function validate()
 	if (valid)
 	{
 		alert("Login was successful");
-		window.location = "/militarybotwebsite/admin/admin.html"; 
+		window.location = "https://isakfk1234.github.io/militarybot/"; 
 		return false;
 	}
 	var again = " tries";
