@@ -1,23 +1,28 @@
+body {
+    background: lightgray;
+    font-family: sans-serif;
+}
+
+
 .navbar {
-    background: lightsteelblue;
-    border: 3px solid black;
-    padding-left: 75px;
-    margin-left: 600px;
-    margin-right: 608px;
-   
+    text-decoration: none;
+    margin-left: 300px;
+    margin-top: 27px;
+    max-width: 0;
+    min-width: fit-content;
+
 }
 
 .navbar a {
-    color: #0c0c0c;
-    text-align: center;
-    padding: 0px 14px 0px 16px;
+    border-radius: 100px;
+    background: black;
     text-decoration: none;
-    font-size: 17px;
-    background: cadetblue;
-    border: 1px dashed;
-  }
-
-
-.active {
-    background: yellow;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    color: lightcyan;
 }
+
+/* padding: 2px 30px 7px 32px; */
