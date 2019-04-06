@@ -22,6 +22,7 @@ body {
     margin-right: 1680px;
     font-size: 15px;
     box-shadow: 4px 4px lightseagreen;
+    max-width: 480px;
 }
 
 
