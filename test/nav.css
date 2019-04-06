@@ -8,7 +8,7 @@ body {
 .navbar {
     text-decoration: none;
     margin: auto;
-    margin-top: 10px;
+    max-width: 480px;
 }
 
 .navbar a {
