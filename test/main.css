@@ -1,0 +1,39 @@
+body {
+    background: lightgray;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.infobox {
+    margin: auto;
+    max-width: 480px;
+    background: lightcyan;
+    border: 3px solid red;
+    box-shadow: 5px 5px lightseagreen;
+}
+/* margin-right: 1700px; */
+
+.timeup {
+    background: lightcyan;
+    border: 3px solid red;
+    margin-top: 30px;
+    margin-right: 1680px;
+    font-size: 15px;
+    box-shadow: 4px 4px lightseagreen;
+}
+
+
+.centerinfo {
+    border: 3px solid red;
+    background: lightcyan;
+    position: fixed;
+    bottom: 597px;
+    left: 800px;
+
+}
+
+.around {
+    border: none; 
+    overflow: hidden;
+}
