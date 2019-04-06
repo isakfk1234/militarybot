@@ -7,7 +7,7 @@ body {
 
 .navbar {
     text-decoration: none;
-    min-width: max-content;
+    min-width: min-content;
 }
 
 .navbar a {
