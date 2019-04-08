@@ -1,0 +1,8 @@
+body {
+    background-color: lightgreen;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {margin-right: 80px;margin-left: 50px;padding-left: 22px;}
+    .navbar a{text-decoration: none; border-radius: 100px;background: black;color:white;padding: 10px 10px 10px 10px;}
+}
