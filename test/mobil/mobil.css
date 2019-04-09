@@ -1,8 +1,42 @@
 body {
-    background-color: lightgreen;
+    background-color: lightgrey;
+    font-family: 'sans-serif';
 }
-
-@media only screen and (max-width: 600px) {
+    /*iphone 6,7,8*/
+@media only screen and (max-width: 375px) {
     .navbar {margin-right: 80px;margin-left: 50px;padding-left: 22px;}
     .navbar a{text-decoration: none; border-radius: 100px;background: black;color:white;padding: 10px 10px 10px 10px;font-size: xx-small;}
+    .info {background: #e4e4a6; }
+    .navmenu {background: darkorange;position: absolute; top:0px; bottom: 631px; margin-right: 2px; padding-top: 15px;padding-left: 350px;z-index: -1;border-bottom: 1px solid mediumvioletred;}
+
+}   /*upside 6,7,8""*/
+@media only screen and (min-width: 667px) {
+    .navbar {margin-right: 80px;margin-left: 160px;padding-left: 22px;}
+    .navbar a{text-decoration: none; border-radius: 100px;background: black;color:white;padding: 10px 10px 10px 10px;font-size: xx-small;}
+    .info {display: none;background: blvack;margin-left: 160px;margin-right: 160px;margin-top: 23px;}
+
 }
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+    .navbar {margin-right: 80px;margin-left: 50px;padding-left: 22px;}
+    .navbar a{text-decoration: none; border-radius: 100px;background: black;color:white;padding: 10px 10px 10px 10px;font-size: xx-small;}
+    .info {display:none;}
+
+}
+
+@media only screen and (min-width: 815px) and (max-width: 768px) {
+    .info {background: lightsalmon;}
+}
+
+
+@media only screen and (min-width: 2560px) {
+    .navbar {margin-right: 80px;margin-left: 1100px;padding-left: 22px;}
+    .navbar a{text-decoration: none; border-radius: 100px;background: black;color:white;padding: 10px 10px 10px 10px;font-size: xx-small;}
+    .info {background: rgb(226, 150, 150);margin-left: 160px;margin-right: 160px;margin-top: 23px;}
+
+}
+
