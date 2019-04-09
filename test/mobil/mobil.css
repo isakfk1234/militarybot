@@ -7,7 +7,7 @@ body {
     .navbar {margin-right: 80px;margin-left: 50px;padding-left: 22px;}
     .navbar a{text-decoration: none; border-radius: 100px;background: black;color:white;padding: 10px 10px 10px 10px;font-size: xx-small;}
     .info {background: #e4e4a6; }
-    .navmenu {background: darkorange;position: absolute; top:0px; bottom: 631px; margin-right: 2px; padding-top: 15px;padding-left: 350px;z-index: -1;border-bottom: 1px solid mediumvioletred;}
+    .navmenu {background: darkorange;position: absolute; top:0px; bottom: 628px; margin-right: 2px; padding-top: 15px;padding-left: 350px;z-index: -1;border-bottom: 1px solid mediumvioletred;}
 
 }   /*upside 6,7,8""*/
 @media only screen and (min-width: 667px) {
